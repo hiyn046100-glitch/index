@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Hà Nội - Khám phá thủ đô</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f5f6f8;
+}
+
+/* header */
+header{
+    background:#b71c1c;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:34px;
+}
+
+/* intro */
+.intro{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    padding:25px;
+}
+
+/* title */
+h2.title{
+    text-align:center;
+    color:#b71c1c;
+    margin-top:40px;
+}
+
+/* container */
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:20px;
+}
+
+/* card large */
+.card{
+    background:white;
+    margin:25px 0;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.card .text{
+    padding:20px;
+}
+
+h3{
+    color:#b71c1c;
+    margin-top:0;
+}
+
+/* grid */
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+/* small cards */
+.small{
+    width:320px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 12px rgba(0,0,0,0.1);
+}
+
+.small img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.small .text{
+    padding:15px;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#eee;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🌆 Hà Nội - Thủ đô ngàn năm văn hiến</h1>
+<p>Khám phá vẻ đẹp lịch sử, văn hóa và ẩm thực</p>
+</header>
+
+<div class="intro">
+<p>
+Hà Nội là trái tim của Việt Nam, nơi hội tụ lịch sử lâu đời, văn hóa đặc sắc
+và nền ẩm thực phong phú. Thành phố mang vẻ đẹp vừa cổ kính vừa hiện đại.
+</p>
+</div>
+
+<!-- ĐỊA ĐIỂM -->
+<h2 class="title">📍 Địa điểm nổi bật</h2>
+
+<div class="container">
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Hoan_Kiem_Lake_Hanoi.jpg">
+<div class="text">
+<h3>Hồ Hoàn Kiếm</h3>
+<p>Biểu tượng của Hà Nội, nơi gắn liền truyền thuyết Rùa thần và vua Lê Lợi.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Ho_Chi_Minh_Mausoleum.jpg">
+<div class="text">
+<h3>Lăng Chủ tịch Hồ Chí Minh</h3>
+<p>Nơi an nghỉ của Bác Hồ – vị lãnh tụ vĩ đại của dân tộc Việt Nam.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Temple_of_Literature_Hanoi.jpg">
+<div class="text">
+<h3>Văn Miếu - Quốc Tử Giám</h3>
+<p>Trường đại học đầu tiên của Việt Nam, biểu tượng truyền thống hiếu học.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Hanoi_Opera_House.jpg">
+<div class="text">
+<h3>Nhà hát lớn Hà Nội</h3>
+<p>Công trình kiến trúc Pháp cổ, nơi diễn ra nhiều sự kiện quan trọng.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Long_Bien_Bridge_Hanoi.jpg">
+<div class="text">
+<h3>Cầu Long Biên</h3>
+<p>Biểu tượng lịch sử bắc qua sông Hồng, gắn liền với thời kỳ kháng chiến.</p>
+</div>
+</div>
+
+</div>
+
+<!-- ẨM THỰC -->
+<h2 class="title">🍜 Ẩm thực Hà Nội</h2>
+
+<div class="container grid">
+
+<div class="small">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Pho_beef.jpg">
+<div class="text">
+<h3>Phở bò</h3>
+<p>Món ăn nổi tiếng toàn thế giới với nước dùng đậm đà.</p>
+</div>
+</div>
+
+<div class="small">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Bun_cha_Hanoi.jpg">
+<div class="text">
+<h3>Bún chả</h3>
+<p>Thịt nướng thơm, ăn cùng bún và nước chấm đặc trưng.</p>
+</div>
+</div>
+
+<div class="small">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Banh_cuon.jpg">
+<div class="text">
+<h3>Bánh cuốn</h3>
+<p>Vỏ bánh mỏng, mềm, nhân thịt mộc nhĩ thơm ngon.</p>
+</div>
+</div>
+
+<div class="small">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Cha_ca_La_Vong.jpg">
+<div class="text">
+<h3>Chả cá Lã Vọng</h3>
+<p>Cá chiên ăn cùng bún, rau và mắm tôm đặc biệt.</p>
+</div>
+</div>
+
+<div class="small">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Nem_ran.jpg">
+<div class="text">
+<h3>Nem rán</h3>
+<p>Món ăn truyền thống giòn rụm, thường xuất hiện ngày lễ Tết.</p>
+</div>
+</div>
+
+</div>
+
+<footer>
+💖 Hà Nội - Niềm tự hào của Việt Nam 💖
+</footer>
+
+</body>
+</html>
